@@ -1,0 +1,1988 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author"
+	content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Jekyll v4.0.1">
+<title>Truyện Tranh Miễn Phí</title>
+<!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/offcanvas/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/grid/"> -->
+<link rel="stylesheet"
+	href="http://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	crossorigin="anonymous">
+
+<!-- Bootstrap core CSS -->
+<!--<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css.map" rel="stylesheet">
+    <link href="css/bootstrap.min.css.map" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css.map" rel="stylesheet">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.css.map" rel="stylesheet">
+    <link href="css/bootstrap-grid.min.css.map" rel="stylesheet"> -->
+
+<style>
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+</style>
+
+<!-- Custom styles for this template -->
+
+<link href="css/offcanvas.css" rel="stylesheet"><!--  -->
+<link rel="stylesheet" type="text/css" href="../css/offcanvas.css" />
+</head>
+
+<body style="background-color: #283042;"
+	class="d-flex flex-column h-100">
+
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark "
+		style="background-color: #202122;">
+		<a class="navbar-brand mr-auto mr-lg-3" href="#">Truyện Tranh Free</a>
+
+
+		<button class="navbar-toggler p-0 border-0" type="button"
+			data-toggle="offcanvas">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="navbar-collapse offcanvas-collapse "
+			id="navbarsExampleDefault">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item "><a class="nav-link text-white" href="#">Đăng
+						truyện <span class="sr-only">(current)</span>
+				</a></li>
+				<!-- Default dropright button -->
+				<li class="nav-item dropdown mr-sm-3"><a
+					class="nav-link dropdown-toggle text-white" href="#"
+					id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false">Thể loại</a>
+					<div class="dropdown-menu dropright" aria-labelledby="dropdown01"
+						style="width: 600px !important;">
+						<div class="row mb-12">
+							<div class="col-sm-4 themed-grid-col">
+								<a class="dropdown-item text-primary"
+									href="front-end/full-list-page.html">Tất cả</a> <a
+									class="dropdown-item text-primary" href="#">Action</a> <a
+									class="dropdown-item text-primary" href="#">Adult</a> <a
+									class="dropdown-item text-primary" href="#">Sport</a>
+							</div>
+							<div class="col-sm-4 themed-grid-col">
+								<a class="dropdown-item text-primary" href="#">Ecchi</a> <a
+									class="dropdown-item text-primary" href="#">Fantasy</a> <a
+									class="dropdown-item text-primary" href="#">Harem</a> <a
+									class="dropdown-item text-primary" href="#">Trinh thám</a>
+
+							</div>
+							<div class="col-sm-4 themed-grid-col">
+								<a class="dropdown-item text-primary" href="#">Mecha</a> <a
+									class="dropdown-item text-primary" href="#">Ngôn tình</a> <a
+									class="dropdown-item text-primary" href="#">School Life</a> <a
+									class="dropdown-item text-primary" href="#">Xuyên không</a>
+							</div>
+						</div>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#" class="nav-link dropdown-toggle"
+							href="#" id="dropdown02" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">Dr </a> <a
+							class="dropdown-item" href="#">Another action</a> <a
+							class="dropdown-item" href="#">Something else here</a>
+						<div class="dropdown-menu dropright" aria-labelledby="dropdown02">
+							<a class="dropdown-item" href="#">Another action</a> <a
+								class="dropdown-item" href="#">Another action</a> <a
+								class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</div></li>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="text"
+						placeholder="Nhập tên bộ truyện, tên tác giả cần tìm" size="72"
+						aria-label="Search">
+					<button class="btn btn-outline-dark text-primary" type="button">
+						<i class="fas fa-search"></i> Tìm kiếm
+					</button>
+				</form>
+			</ul>
+
+
+			<ul class="navbar-nav">
+
+				<li class="nav-item"><a class="nav-link" href="#"><i
+						class="fas fa-user-plus"></i> Đăng kí</a></li>
+				<li class="nav-item "><a class="nav-link" href="#"><i
+						class="fas fa-sign-in-alt"></i> Đăng nhập</a></li>
+				<!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+			</ul>
+		</div>
+	</nav>
+
+	<div class="nav-scroller  shadow-sm" style="background-color: #444;">
+		<nav class="nav nav-underline container text-black">
+			<a class="nav-link active text-primary" href="#">Danh sách truyện</a>
+			<a class="nav-link text-primary" href="#"> Mới cập nhật <span
+				class="badge badge-pill bg-white align-text-bottom">27</span>
+			</a> <a class="nav-link text-primary" href="#">Hot nhất</a> <a
+				class="nav-link text-primary" href="#">Manhua</a> <a
+				class="nav-link text-primary" href="#">Cổ đại</a> <a
+				class="nav-link text-primary" href="#">Xuyên không</a> <a
+				class="nav-link text-primary" href="#">Trọng sinh</a> <a
+				class="nav-link text-primary" href="#">Phép thuật</a> <a
+				class="nav-link text-primary" href="#">Chuyển sinh</a>
+		</nav>
+	</div>
+
+	<main role="main" class="container my-3 pb-1 pt-1 "
+		style="background-color: #202122;">
+		<div
+			class="d-flex justify-content-center mb-2 align-items-center p-2 my-3 pt-2 text-white-50  rounded shadow-sm "
+			style="background-color: #444;">
+			<!-- <img class="mr-0" src="../assets/brand/bootstrap-outline.svg" alt="" width="48" height="48"> -->
+			<div class="lh-100 text-center mb-2">
+				<h6 class="text-white lh-100 ">Cú pháp tìm kiếm phim nhanh nhất
+					trên Google: [Tên phim + Animet.Net]</h6>
+				<small class="text-white ">Click quảng cáo là góp phần giúp
+					phát triển Animet.Net.</small>
+			</div>
+
+		</div>
+		<!-- <div class="d-flex align-items-center p-1 my-3 text-white-50 bg-purple rounded shadow-sm">
+            <img class="mr-0" src="../assets/brand/bootstrap-outline.svg" alt="" width="48" height="48">
+            <div class="lh-100 text-center ml-3">
+                <h6 class="mb-0 text-white lh-100 " style="text-align: center !important;" >Cú pháp tìm kiếm phim nhanh nhất trên Google: [Tên phim + Animet.Net]
+                </h6>
+                <small>Click quảng cáo là góp phần giúp phát triển Animet.Net.</small>
+            </div>
+        </div> -->
+
+
+		<div class="my-3 mb-2  bg-white rounded shadow-sm">
+
+			<h6 class="border-gray pb-2 mb-1 text-white p-2 bg-primary">TRUYỆN
+				ĐỀ CỬ</h6>
+			<!-- <div class="container-fluid "> -->
+			<div id="carouselExampleIndicators" class="carousel slide mt-0"
+				data-ride="carousel" data-interval="1000" mouseentermouseleavefalse>
+				<!-- <ol class="carousel-indicators" data-data-interval="2000">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol> -->
+				<div class="carousel-inner ">
+					<div class="carousel-item active">
+						<div class="d-flex justify-content-center">
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""> <img
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light ">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""> <img src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""> <img
+										src="images/ong-xa-ket-hon-thu-manh-them-chut-nua-di-7974.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""><img
+										src="images/bong-mot-ngay-tro-thanh-con-gai-nha-vua.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""><img
+										src="images/bong-mot-ngay-tro-thanh-con-gai-nha-vua.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""><img
+										src="images/bong-mot-ngay-tro-thanh-con-gai-nha-vua.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="d-flex justify-content-center">
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""><img
+										src="images/bong-mot-ngay-tro-thanh-con-gai-nha-vua.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""><img src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""><img
+										src="images/bong-mot-ngay-tro-thanh-con-gai-nha-vua.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""><img
+										src="images/bong-mot-ngay-tro-thanh-con-gai-nha-vua.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""><img
+										src="images/bong-mot-ngay-tro-thanh-con-gai-nha-vua.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+							<div class="p-2">
+								<div class="text-center">
+									<a href=""><img
+										src="images/bong-mot-ngay-tro-thanh-con-gai-nha-vua.jpg"
+										style="height: 197px; width: 170px;"
+										class="img mx-auto d-block" alt="..."></a>
+								</div>
+								<h6 class="text-center text-danger">Trọng sinh chi đô thị</h6>
+								<div class="row ">
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">Chapter
+											410</small>
+									</div>
+									<div class="col-sm-6">
+										<small class="text-left text-dark font-weight-light">1
+											ngày trước</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> -->
+			</div>
+			<!-- </div> -->
+
+		</div>
+		<div class="my-0 pb-2  bg-white mb-3 rounded shadow-sm border-gray">
+			<h6 class="border-gray pb-2 mb-1 text-white p-2 bg-primary">TÁN
+				GẪU</h6>
+			<div class="row p-2 m-2">
+				<div class="col-sm-7 w-100 pr-3  p-0 pd-0 py-0 mb-1">
+					<div id="fb-root"></div>
+					<script async defer crossorigin="anonymous"
+						src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&autoLogAppEvents=1&version=v7.0&appId=298786691245720"
+						nonce="aWI61HoE"></script>
+					<div class="fb-comments"
+						data-href="https://www.facebook.com/truyentranhsekai/?modal=admin_todo_tour"
+						data-numposts="10" data-width=""></div>
+
+				</div>
+				<div class="col-sm-5 w-100 p-0 m-0 pb-2"></div>
+			</div>
+
+		</div>
+		<div class="container ">
+			<div class="row ">
+				<div class="float-left pr-3 col-lg-8 p-0 pd-0 py-0 mb-1">
+					<div class="my-0    rounded shadow-sm border-gray"
+						style="background-color: aliceblue; height: auto;">
+						<h6 class="border-gray pb-1  text-white p-2 bg-primary">TRUYỆN
+							MỚI CẬP NHẬT</h6>
+						<div class="row p-2 pb-2">
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div class="media">
+									<img class="align-self-start mr-3 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 130px; width: 120px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: #933;">Long
+											Vương Truyền Thuyết</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">Chương
+											167</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1600 lượt xem</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">1 ngày trước</h6>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="" class="">
+							<h6
+								class="border-gray pb-1 m-0  text-center text-white p-2 bg-primary"
+								style="text-transform: uppercase; font-weight: 400; font-family: Tahoma, sans-serif;">XEM
+								TẤT CẢ TRUYỆN</h6>
+						</a>
+					</div>
+				</div>
+				<div class="float-right col-lg-4  p-0 m-0 pb-2">
+					<div class=" mb-2  bg-white  rounded shadow-sm border-gray">
+						<h6 class="border-gray pb-2 py-2   p-2 text-white  bg-primary">LỊCH
+							SỬ ĐỌC TRUYỆN</h6>
+						<div class="media border-top">
+
+							<img class="align-self-start mr-2 ml-1 mb-2 mt-1 img-thumbnail"
+								src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+								style="height: 120px; width: 110px;"
+								alt="Generic placeholder image">
+							<div class="media-body text-left text-white">
+								<div class="row p-0">
+									<div class="col-sm-9 float-left mt-1 pr-0  pt-0 p-0 pl-3">
+										<h6 class="mt-0 text-left"
+											style="font-size: 13px; color: red;">Hệ thống công lượng
+											của tiểu công chúa</h6>
+									</div>
+									<div class="col-sm-2  mt-0 pr-0   p-0 ">
+										<a href="#" class="badge badge-danger text-left"><i
+											class="fas fa-times"></i> Xóa</a>
+									</div>
+								</div>
+
+								<a href="">
+									<h6 class="mt-0" style="font-size: 13px; color: green;">Đọc
+										tiếp chap 122</h6>
+								</a>
+								<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+									Chapter mới nhất: <a href="#" class="badge badge-primary">122</a>
+								</h6>
+							</div>
+						</div>
+						<div class="media border-top">
+
+							<img class="align-self-start mr-2 ml-1 mb-2 mt-1 img-thumbnail"
+								src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+								style="height: 120px; width: 110px;"
+								alt="Generic placeholder image">
+							<div class="media-body text-left text-white">
+								<div class="row p-0">
+									<div class="col-sm-9 float-left mt-1 pr-0  pt-0 p-0 pl-3">
+										<h6 class="mt-0 text-left"
+											style="font-size: 13px; color: red;">Hệ thống công lượng
+											của tiểu công chúa</h6>
+									</div>
+									<div class="col-sm-2  mt-0 pr-0   p-0 ">
+										<a href="#" class="badge badge-danger text-left"><i
+											class="fas fa-times"></i> Xóa</a>
+									</div>
+								</div>
+
+								<a href="">
+									<h6 class="mt-0" style="font-size: 13px; color: green;">Đọc
+										tiếp chap 122</h6>
+								</a>
+								<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+									Chapter mới nhất: <a href="#" class="badge badge-primary">122</a>
+								</h6>
+							</div>
+						</div>
+						<div class="media border-top">
+
+							<img class="align-self-start mr-2 ml-1 mb-2 mt-1 img-thumbnail"
+								src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+								style="height: 120px; width: 110px;"
+								alt="Generic placeholder image">
+							<div class="media-body text-left text-white">
+								<div class="row p-0">
+									<div class="col-sm-9 float-left mt-0 pr-0  pt-0 p-0 pl-3">
+										<h6 class="mt-0 text-left"
+											style="font-size: 13px; color: red;">Hệ thống công lượng
+											của tiểu công chúa</h6>
+									</div>
+									<div class="col-sm-2  mt-0 pr-0   p-0 ">
+										<a href="#" class="badge badge-danger text-left"><i
+											class="fas fa-times"></i> Xóa</a>
+									</div>
+								</div>
+
+								<a href="">
+									<h6 class="mt-0" style="font-size: 13px; color: green;">Đọc
+										tiếp chap 122</h6>
+								</a>
+								<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+									Chapter mới nhất: <a href="#" class="badge badge-primary">122</a>
+								</h6>
+
+							</div>
+						</div>
+						<div class="media border-top">
+
+							<img class="align-self-start mr-2 ml-1 mb-2 mt-1 img-thumbnail"
+								src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+								style="height: 120px; width: 110px;"
+								alt="Generic placeholder image">
+							<div class="media-body text-left text-white">
+								<div class="row p-0">
+									<div class="col-sm-9 float-left mt-1 pr-0  pt-0 p-0 pl-3">
+										<h6 class="mt-0 text-left"
+											style="font-size: 13px; color: red;">Hệ thống công lượng
+											của tiểu công chúa</h6>
+									</div>
+									<div class="col-sm-2  mt-0 pr-0   p-0 ">
+										<a href="#" class="badge badge-danger text-left"><i
+											class="fas fa-times"></i> Xóa</a>
+									</div>
+								</div>
+
+								<a href="">
+									<h6 class="mt-0" style="font-size: 13px; color: green;">Đọc
+										tiếp chap 122</h6>
+								</a>
+
+								<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+									Chapter mới nhất: <a href="#" class="badge badge-primary">122</a>
+								</h6>
+
+							</div>
+						</div>
+						<div class="media border-top">
+
+							<img class="align-self-start mr-2 ml-1 mb-2 mt-1 img-thumbnail"
+								src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+								style="height: 120px; width: 110px;"
+								alt="Generic placeholder image">
+							<div class="media-body text-left text-white">
+								<div class="row p-0">
+									<div class="col-sm-9 float-left mt-1 pr-0  pt-0 p-0 pl-3">
+										<h6 class="mt-0 text-left"
+											style="font-size: 13px; color: red;">Hệ thống công lượng
+											của tiểu công chúa</h6>
+									</div>
+									<div class="col-sm-2  mt-0 pr-0   p-0 ">
+										<a href="#" class="badge badge-danger text-left"><i
+											class="fas fa-times"></i> Xóa</a>
+									</div>
+								</div>
+
+								<a href="">
+									<h6 class="mt-0" style="font-size: 13px; color: green;">Đọc
+										tiếp chap 122</h6>
+								</a>
+								<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+									Chapter mới nhất: <a href="#" class="badge badge-primary">122</a>
+								</h6>
+
+
+
+							</div>
+						</div>
+
+					</div>
+					<div class=" mb-0 pb-2 bg-white  rounded shadow-sm border-gray">
+						<nav>
+
+							<div class="nav mb-2 nav-tabs text-center " id="nav-tab"
+								role="tablist" style="background-color: #fff;">
+								<a class="nav-item nav-link active text-primary"
+									id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+									aria-controls="nav-home" aria-selected="true">TOP THÁNG</a> <a
+									class="nav-item nav-link" id="nav-profile-tab"
+									data-toggle="tab" href="#nav-profile" role="tab"
+									aria-controls="nav-profile" aria-selected="false">TOP TUẦN</a>
+								<a class="nav-item nav-link" id="nav-contact-tab"
+									data-toggle="tab" href="#nav-contact" role="tab"
+									aria-controls="nav-contact" aria-selected="false">TOP NGÀY</a>
+							</div>
+						</nav>
+						<div class="tab-content" id="nav-tabContent">
+							<div class="tab-pane  fade show active" id="nav-home"
+								role="tabpanel" aria-labelledby="nav-home-tab">
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="nav-profile" role="tabpanel"
+								aria-labelledby="nav-profile-tab">
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/he-thong-cong-luoc-cua-tieu-cong-chua.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Hệ
+											thống công lượng hoàng triều</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">122</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">2500</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="nav-contact" role="tabpanel"
+								aria-labelledby="nav-contact-tab">
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/ong-xa-ket-hon-thu-manh-them-chut-nua-di-7974.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Ông
+											xã kết hôn thử mạnh thêm...</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">100</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+								<div class="media">
+
+									<img class="align-self-start mr-2 ml-1 mb-2 img-thumbnail"
+										src="images/mau-than-ta-khong-de-choc.jpg"
+										style="height: 120px; width: 110px;"
+										alt="Generic placeholder image">
+									<div class="media-body text-left text-white">
+										<h6 class="mt-0" style="font-size: 13px; color: red;">Long
+											Vương Truyền Thuyết</h6>
+										<h6
+											class="mt-0 text-left  font-italic media-body  small lh-125"
+											style="font-size: 13px; color: #838385;">Tác giả: Đang
+											cập nhật</h6>
+										<h6 class="mt-0" style="font-size: 13px; color: #003555;">
+											Chapter mới nhất: <a href="#" class="badge badge-primary">167</a>
+
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">
+												Lượt xem: <span class="badge badge-dark">11600</span>
+											</h6>
+											<h6
+												class="mt-0 text-left  font-italic media-body  small lh-125"
+												style="font-size: 13px; color: #838385;">Ngày cập nhật
+												cuối: 1 ngày trước</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- <h6 class="border-gray pb-2 py-2   p-2 text-white  bg-primary ml-2">TOP TRUYỆN HOT TRONG NGÀY</h6>
+                        <h6 class="border-gray pb-2  text-white p-2 bg-primary ml-2">TOP TRUYỆN HOT TRONG NGÀY</h6>
+                        <h6 class="border-gray pb-2  text-white p-2 bg-primary ml-2">TOP TRUYỆN HOT TRONG NGÀY</h6> -->
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<div class="my-3 p-3 bg-white rounded shadow-sm">
+			<h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
+			<div class="media text-muted pt-3">
+				<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+					aria-label="Placeholder: 32x32">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#007bff" />
+					<text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+                </svg>
+				<p
+					class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+					<strong class="d-block text-gray-dark">@username</strong> Donec id
+					elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+					cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+					justo sit amet risus.
+				</p>
+			</div>
+			<div class="media text-muted pt-3">
+				<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+					aria-label="Placeholder: 32x32">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#e83e8c" />
+					<text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text>
+                </svg>
+				<p
+					class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+					<strong class="d-block text-gray-dark">@username</strong> Donec id
+					elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+					cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+					justo sit amet risus.
+				</p>
+			</div>
+			<div class="media text-muted pt-3">
+				<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+					aria-label="Placeholder: 32x32">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#6f42c1" />
+					<text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text>
+                </svg>
+				<p
+					class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+					<strong class="d-block text-gray-dark">@username</strong> Donec id
+					elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+					cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+					justo sit amet risus.
+				</p>
+			</div>
+			<small class="d-block text-right mt-3"> <a href="#">All
+					updates</a>
+			</small>
+		</div>
+
+		<div class="my-3 p-3 bg-white rounded shadow-sm">
+			<h6 class="border-bottom border-gray pb-2 mb-0">Suggestions</h6>
+			<div class="media text-muted pt-3">
+				<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+					aria-label="Placeholder: 32x32">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#007bff" />
+					<text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+                </svg>
+				<div
+					class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+					<div
+						class="d-flex justify-content-between align-items-center w-100">
+						<strong class="text-gray-dark">Full Name</strong> <a href="#">Follow</a>
+					</div>
+					<span class="d-block">@username</span>
+				</div>
+			</div>
+			<div class="media text-muted pt-3">
+				<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+					aria-label="Placeholder: 32x32">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#007bff" />
+					<text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+                </svg>
+				<div
+					class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+					<div
+						class="d-flex justify-content-between align-items-center w-100">
+						<strong class="text-gray-dark">Full Name</strong> <a href="#">Follow</a>
+					</div>
+					<span class="d-block">@username</span>
+				</div>
+			</div>
+			<div class="media text-muted pt-3">
+				<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+					aria-label="Placeholder: 32x32">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#007bff" />
+					<text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+                </svg>
+				<div
+					class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+					<div
+						class="d-flex justify-content-between align-items-center w-100">
+						<strong class="text-gray-dark">Full Name</strong> <a href="#">Follow</a>
+					</div>
+					<span class="d-block">@username</span>
+				</div>
+			</div>
+			<small class="d-block text-right mt-3"> <a href="#">All
+					suggestions</a>
+			</small>
+
+		</div>
+
+	</main>
+	<!-- style="background-color: #222;" -->
+	<footer class="footer mt-auto py-3 ">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="row">
+						<div class="col-lg-6">
+							<h6 class="border-gray pb-2 mb-1 text-white p-2 m-0 ">Fanpage
+								Facebook</h6>
+						</div>
+						<div class="col-lg-4"></div>
+					</div>
+
+					<iframe
+						src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTruy%25E1%25BB%2587n-Tranh-Sekai-108526000921709%2F%3Fmodal%3Dadmin_todo_tour&tabs=timeline%2Ctabs&width=340&height=178&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=298786691245720"
+						width="340" height="178" style="border: none; overflow: hidden"
+						scrolling="no" frameborder="0" allowTransparency="true"
+						allow="encrypted-media"></iframe>
+				</div>
+
+				<div class="col-lg-4">
+					<iframe class="mt-4 pt-3"
+						src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FHamtruyen.FC%2Fvideos%2F460780674588899%2F&show_text=false&width=734&appId=298786691245720&height=411"
+						width="340" height="180" style="border: none; overflow: hidden"
+						scrolling="no" frameborder="0" allowTransparency="true"
+						allow="encrypted-media" allowFullScreen="true"></iframe>
+				</div>
+				<div class="col-lg-4">
+					<h6 class="border-gray pb-2 mb-1 text-white text-center p-2 m-0 ">Thể
+						loại</h6>
+					<a href="#" class="badge badge-secondary">Chuyển sinh</a> <a
+						href="#" class="badge badge-secondary">Manga</a> <a href="#"
+						class="badge badge-secondary">Manhua</a> <a href="#"
+						class="badge badge-secondary">Ngôn tình</a> <a href="#"
+						class="badge badge-secondary">Xuyên không</a> <a href="#"
+						class="badge badge-secondary ">Chuyển sinh</a> <a href="#"
+						class="badge badge-secondary">Manga</a> <a href="#"
+						class="badge badge-secondary">Manhua</a> <a href="#"
+						class="badge badge-secondary">Ngôn tình</a> <a href="#"
+						class="badge badge-secondary">Xuyên không</a> <a href="#"
+						class="badge badge-secondary">Xuyên không</a> <a href="#"
+						class="badge badge-secondary ">Chuyển sinh</a> <a href="#"
+						class="badge badge-secondary">Manga</a> <a href="#"
+						class="badge badge-secondary">Manhua</a> <a href="#"
+						class="badge badge-secondary">Ngôn tình</a> <a href="#"
+						class="badge badge-secondary">Xuyên không</a>
+				</div>
+			</div>
+
+			<h6 class="border-gray pb-2  text-muted text-center p-2 m-0 ">
+				<i class="fa fa-copyright" aria-hidden="true">Copyright 2020</i>
+			</h6>
+
+
+
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous">
+		
+	</script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous">
+		
+	</script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous">
+		
+	</script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="../js/offcanvas.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="js/bootstrap.bundle.js"></script>
+  
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js.map"></script>
+    <script src="js/bootstrap.min.js.map"></script>
+    <script src="js/bootstrap.bundle.js.map"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
